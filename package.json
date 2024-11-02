@@ -1,0 +1,33 @@
+{
+  "name": "api-chat-app",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "duckhanhdev",
+  "scripts": {
+
+    "dev": "nodemon --exec ./node_modules/.bin/babel-node ./src/server.js"
+  },
+  "main": "src/server.js",
+  "author": "duckhanhdev",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/node": "^7.26.0",
+    "@babel/plugin-transform-runtime": "^7.25.9",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/runtime": "^7.26.0",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "nodemon": "^3.1.7"
+  }
+}
