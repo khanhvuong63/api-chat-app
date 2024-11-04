@@ -6,8 +6,8 @@ const Router = express.Router();
 
 Router.post("/signup", signup)
 
-Router.get("/login", login)
+Router.post("/login", login)
 
-Router.get("/logout", logout)
+Router.post("/logout", logout)
 
 export const authRoute = Router
