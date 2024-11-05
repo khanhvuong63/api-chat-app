@@ -1,6 +1,7 @@
 import express from "express";
 import { authRoute } from "./authRoute.js";
 import { messageRoute } from "./messageRoute.js";
+import { userRoute } from "./userRoute.js";
 
 
 const Router = express.Router();
@@ -15,5 +16,8 @@ Router.use("/auth", authRoute)
 
 /* message Api */
 Router.use("/messages", messageRoute)
+
+/** user Api */
+Router.use("/users", userRoute)
 
 export const api = Router
