@@ -20,4 +20,4 @@ Router.use("/messages", messageRoute)
 /** user Api */
 Router.use("/users", userRoute)
 
-export const api = Router
+export const API = Router
